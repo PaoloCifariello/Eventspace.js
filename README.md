@@ -12,7 +12,7 @@ _Create your spaces of event:_
 
 _or just:_
 
-	ES.add(['init','pre','post'])ò
+	ES.add(['init','pre','post']);
 
 _Set event for spaces:_
 
