@@ -10,6 +10,9 @@ _Create your spaces of event:_
     ES.add('pre');
     ES.add('post');
 
+_or just:_
+
+	ES.add(['init','pre','post'])ò
 
 _Set event for spaces:_
 
