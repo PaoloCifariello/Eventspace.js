@@ -37,6 +37,6 @@ _Activate space init:_
 
 `ES.set('init');`
 
-_Deactivate, no active spaces:_
+_Deactivate every space:_
 
 `ES.set()`
