@@ -1,42 +1,7 @@
-# _eventspacejs_
+# Eventspace.js
 
-_An event organizer for javascript_
+An event organizer for javascript
 
-##Documentation
+### Where do i start?
 
-_Create your spaces of event:_
-
-    ES.add('init');
-    ES.add('pre');
-    ES.add('post');
-
-_or just:_
-
-	ES.add(['init','pre','post']);
-
-_Set event for spaces:_
-
-
-    ES.on({
-        node: document.body,
-        event: 'click',
-        space: ['init', 'pre']
-    }, function(){
-        alert('Clicked in space init or pre');
-    })
-
-    ES.on({
-        node: document.body,
-        event: 'click',
-        space: ['post']
-    }, function(){
-        alert('Clicked in space post');
-    })
-
-_Activate space init:_
-
-`ES.set('init');`
-
-_Deactivate every space:_
-
-`ES.set()`
+[Getting started](https://github.com/PaoloCifariello/Eventspace.js/wiki/Getting-Started)
